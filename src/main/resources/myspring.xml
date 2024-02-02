@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans>
+    <bean id="user" class="org.chihaicheng.bean.User">
+        <property name="name" value="池海成"/>
+        <property name="age" value="18"/>
+    </bean>
+
+    <bean id="userServices" class="org.chihaicheng.bean.UserServices">
+        <property name="userDao" ref="userDaoBean" />
+    </bean>
+
+    <bean id="userDaoBean" class="org.chihaicheng.bean.UserDao"/>
+</beans>
