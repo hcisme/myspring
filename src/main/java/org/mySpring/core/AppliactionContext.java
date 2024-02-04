@@ -1,4 +1,4 @@
-package org.hcisme.core;
+package org.mySpring.core;
 
 /**
  * mySpring 框架应用上下文
